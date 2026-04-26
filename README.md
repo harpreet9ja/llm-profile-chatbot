@@ -8,21 +8,21 @@ Built with OpenAI, Gradio, and Python.
 
 ## 🚀 Features
 
-* Chat interface using Gradio
-* Persona-based responses (acts like the profile owner)
-* Reads resume from PDF
-* Uses structured summary + LinkedIn data
-* Context-aware conversation (chat history supported)
+- Chat interface using Gradio
+- Persona-based responses (acts like the profile owner)
+- Reads resume from PDF
+- Uses structured summary + LinkedIn data
+- Context-aware conversation (chat history supported)
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Python
-* OpenAI API
-* Gradio
-* PyPDF
-* python-dotenv
+- Python
+- OpenAI API
+- Gradio
+- PyPDF
+- python-dotenv
 
 ---
 
@@ -85,28 +85,20 @@ Then open the Gradio UI in your browser.
 
 ## 💡 How it works
 
-* Extracts text from a PDF resume
-* Combines it with a summary file
-* Uses a system prompt to simulate a real person
-* Sends chat history + user message to OpenAI
-* Returns contextual responses
+- Extracts text from a PDF resume
+- Combines it with a summary file
+- Uses a system prompt to simulate a real person
+- Sends chat history + user message to OpenAI
+- Returns contextual responses
 
 ---
 
 ## 📌 Example Use Cases
 
-* Personal portfolio chatbot
-* Resume assistant
-* AI-based profile Q&A system
-* Demo project for LLM apps
-
----
-
-## ⚠️ Notes
-
-* Do not commit `.env` file
-* Keep API keys secure
-* Large PDFs may need preprocessing
+- Personal portfolio chatbot
+- Resume assistant
+- AI-based profile Q&A system
+- Demo project for LLM apps
 
 ---
 

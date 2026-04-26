@@ -13,7 +13,7 @@ text=""
 for page in reader.pages:
     text = text + page.extract_text()
     
-print(text)
+#print(text)
 
 with open("me/summary.txt", "r", encoding="utf-8") as f:
     summary = f.read()
